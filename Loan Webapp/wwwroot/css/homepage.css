@@ -1,0 +1,284 @@
+﻿﻿@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    outline: none;
+}
+
+
+.banner-home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/banner-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-home {
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+.text-content-banner {
+    font-size: 18px;
+    color: #F2F2F2;
+    line-height: 2;
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.line-height-1-5 {
+    line-height: 1.5;
+}
+
+.opacity-70 {
+    opacity: 80%;
+}
+
+.title-banner-home {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: Prompt;
+    color: #F2F2F2;
+}
+
+
+
+.detail-banner {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 15%;
+}
+
+.font-Prompt {
+    font-family: Prompt;
+}
+
+.banner-home .detail-banner button {
+    width: 200px;
+    height: 60px;
+}
+
+.button-home {
+    border-radius: 30px;
+    color: #0C0D0F;
+    background-color: #F2F2F2;
+    margin-top: 1rem;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .button-home:hover {
+        background-color: #394D58;
+        color: #F2F2F2;
+        transition-duration: 0.2s;
+    }
+
+
+.section2 {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.title-section2 {
+    color: #7293A6;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.con-icon {
+    width: 190px;
+}
+
+.text-icon-home {
+    color: #7293A6;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.text-center svg {
+    height: 80px;
+}
+
+.section3 {
+    width: auto;
+    height: auto;
+    background-color: #F2F2F2;
+}
+
+.title-section3 {
+    color: #394D58;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content-sec3 {
+    width: auto;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.stepImg {
+    width: 70%;
+}
+.motionImg {
+    width: 60%;
+    height: 45%;
+}
+
+.con-step {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.section4 {
+    width: auto;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.content-sec4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+    .content-sec4 button span {
+        font-size: 50px;
+        color: #394D58;
+    }
+
+    .content-sec4 button {
+        width: 312px;
+        height: 312px;
+        border: none;
+        cursor: default;
+        outline: none;
+        background-color: #F2F2F2;
+        color: #7293A6;
+        font-family: Prompt;
+        font-weight: 600;
+        line-height: 2;
+        margin-top: 20px;
+    }
+
+.section5 {
+    background-color: #293740;
+    overflow: hidden;
+}
+
+.title-FAQ {
+    font-family: Prompt;
+    font-size: 35px;
+    font-weight: 600;
+    color: #F2F2F2;
+}
+
+
+@media (max-width: 768px) {
+
+    .title-banner-home {
+        font-size: 30px;
+    }
+
+    .text-content-banner {
+        font-size: 12px;
+    }
+
+    .detail-banner {
+        padding-top: 150px;
+    }
+
+    .banner-home {
+        height: 500px;
+    }
+
+    .img-home {
+        height: 100%;
+    }
+
+    .banner-home .detail-banner button {
+        width: 95%;
+        margin-right: 10px;
+    }
+
+    .button-home {
+        width: 100%;
+    }
+
+    .title-section2 {
+        font-size: 20px;
+    }
+
+    .text-center svg {
+        height: 44px;
+    }
+
+    .container-icons {
+        justify-content: center;
+    }
+
+    .con-icon {
+        width: 120px;
+    }
+
+    .text-icon-home {
+        font-size: 12px;
+    }
+
+    .title-section3 {
+        font-size: 20px;
+    }
+
+    .content-sec3 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .con-step img {
+        width: 80%;
+        padding: 90px;
+    }
+
+    .content-sec3 img {
+        width: 100%;
+    }
+
+    .content-sec4 button {
+        width: 190px;
+        height: 190px;
+        font-size: 14px;
+    }
+
+        .content-sec4 button span {
+            font-size: 18px;
+        }
+}
